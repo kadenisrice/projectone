@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* NAVIGATION BAR/BANNER!! */
+
+ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.25%;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.learn-to-code {
+    font-size: 200%;
+    color: #20a8b4;
+}
+
+.code {
+    color: #ff5c0f;
+}
+
+li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-bar {
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    float: right;
+    text-align: right;
+    display: block;
+    padding: .15%;
+    width: 50%;
+
+}
+
+.nav-items {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all;
+    font-size: 125%;
+    padding: 1%;
+}
+
+.nav-items:hover {
+    color: #ff5c0f;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+}
+
+/* ~~~ LINK HOVER TRANSITION STUFF ~~~ */
+
+/* a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all;
+    font-size: 125%;
+    padding: 1%;
+}
+
+a:hover {
+    color: #ff5c0f;
+} */
+
+
+/* ~~~ CONTACT US BUTTON ~~~ */
+
+.contact-us {
+    font-size: 100%;
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    border-color: #20a8b4;
+    color: white;
+
+}
+
+.contact-us:hover {
+    background-color: #ff5c0f;
+    color: white;
+    transition: 0.5s;
+}
+
+/* ~~~ PARAGRAPH AND LEARN MORE (MIDDLE OF SCREEN) ~~~ */
+
+h2 {
+    padding: 1.25%;
+    transform: translateY(300%);
+}
+
+.learning-to-code {
+    color: #ff5c0f;
+}
+
+p {
+    padding: 1.25%;
+    transform: translateY(325%);
+
+}
+
+.learn-more {
+    font-size: 100%;
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    border-color: #20a8b4;
+    color: white;
+    transform: translateY(480%);
+    margin-left: 1.25%;
+    z-index: 100;
+}
+
+.learn-more:hover {
+    background-color: #ff5c0f;
+    color: white;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+.coding-photo {
+    background-image: url(code.svg);
+    width: 50vh;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    float: right;
+    margin-right: 10%;
+}
